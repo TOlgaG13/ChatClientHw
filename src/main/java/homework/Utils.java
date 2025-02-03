@@ -2,10 +2,11 @@ package homework;
 
 
 public class Utils {
-    private static final String URL = "http://127.0.0.1";
-    private static final int PORT = 8080;
+    private static final String URL = "http://localhost:8088/ChatServerHw_war_exploded/";
+    private static final int PORT = 8088;
 
     public static String getURL() {
-        return URL + ":" + PORT;
+
+        return URL ;
     }
 }
